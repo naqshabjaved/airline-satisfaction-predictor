@@ -2,7 +2,7 @@
 
 A machine learning web app that predicts airline passenger satisfaction based on flight details and service ratings.
 
-**Live App Demo:** [**Click here to try the app!**](https://airline-satisfaction-predictor-8ygpsr2be2ear4jtuwxshu.streamlit.app*)
+**Live App Demo:** [**Click here to try the app!**](https://airline-satisfaction-predictor-8ygpsr2be2ear4jtuwxshu.streamlit.app)
 
 ## Project Overview
 
@@ -30,3 +30,4 @@ The model is a **Random Forest Classifier** trained on the "Airline Passenger Sa
     `pip install -r requirements.txt`
 3.  Run the Streamlit app:
     `streamlit run app.py`
+
