@@ -1,0 +1,11 @@
+numpy
+pandas
+matplotlib
+scikit-learn
+streamlit
+joblib
+ipykernel
+plotly
+numpy==1.26.4
+nbformat
+shap
