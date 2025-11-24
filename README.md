@@ -25,7 +25,7 @@ The model is a **Random Forest Classifier** trained on the "Airline Passenger Sa
 
 ## How to Run
 1.  Clone the repository:
-    `git clone https://github.com/your-username/airline-satisfaction-predictor.git`
+    `git clone https://github.com/naqshabjaved/airline-satisfaction-predictor.git`
 2.  Install the required packages:
     `pip install -r requirements.txt`
 3.  Run the Streamlit app:
