@@ -12,6 +12,7 @@ except Exception as e:
     st.error(f"An error occurred while loading the model: {e}")
     st.stop()
 
+# --- Page Configuration ---
 st.set_page_config(page_title="Airline Passenger Satisfaction", layout="wide")
 st.title('Airline Passenger Satisfaction Predictor')
 st.write("""
@@ -22,6 +23,7 @@ st.markdown("---")
 
 col1, col2 = st.columns(2)
 
+# --- Column 1: Passenger Details ---
 with col1:
     st.header("Passenger Details")
     age = st.slider('Age', 7, 85, 40)
@@ -90,6 +92,7 @@ if st.button('Predict Satisfaction', use_container_width=True, type="primary"):
         'Departure Delay in Minutes': departure_delay_in_minutes,
     }
 
+    # Convert to DataFrame
     input_df = pd.DataFrame([input_data])
     
     try:
